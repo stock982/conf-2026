@@ -250,7 +250,7 @@ window.CONFERENCE_SITE_DATA = {
           {
             label: "01",
             title: "史料現場 X 近史所三館聯合特展：近代東亞的權力重構與人群移動",
-            text: "敬請期待",
+            text: "這不僅是一場參觀活動，更是一場深入近代史研究核心的實地探索。我們將帶領與會學者與貴賓，從宏觀的聯展視野出發，深入檔案館核心庫房，並近距離認識支撐當代研究的重要檔案、圖書與數位資源。誠摯邀請各位與會先進，與我們一同走入史料的呼吸之中。",
             meta: "時間：2026年8月3日（一）至12月30日（三）。週一至週五 09：00~17:00，國定例假日休館。｜地點：近史所檔案館1樓左側廊道",
             groups: [
               {
@@ -263,7 +263,12 @@ window.CONFERENCE_SITE_DATA = {
               },
               {
                 title: "聯展亮點",
-                people: ["敬請期待"]
+                people: [
+                  "【三館聯展特導】聚焦權力重構與人群移動：特別針對本次三館聯合策展內容進行精華導覽，帶領與會者解讀史料背後隱含的權力流轉與歷史脈絡。",
+                  "【直擊史料核心】走進檔案館典藏空間：特別開放檔案館三樓庫房與閱覽空間，讓與會嘉賓近距離感受檔案保存工作的專業、溫度與嚴謹。",
+                  "【研究利器解析】檔案與圖書數位資源簡介：由檔案館主任蘇聖雄與學科館員張瑜庭解說近代史研究不可或缺的檔案應用、圖書文獻與數位資料庫資源，協助研究者掌握多元研究工具。",
+                  "【專業交流對話】深度座談 Q&A：行程最後安排綜合交流時段，由研究人員及與會者進行面對面交流與結語分享，交流史料典藏與學術應用的實務經驗。"
+                ]
               },
               {
                 title: "聯展聯絡窗口",
@@ -702,18 +707,18 @@ window.CONFERENCE_SITE_DATA = {
             images: [
               {
                 src: "assets/images/tour-hushih-1.jpg",
-                alt: "胡適紀念館陳列室外景",
-                caption: "胡適紀念館陳列室：介紹其生平、思想與藏書",
-                enlarge: true
-              },
-              {
-                src: "assets/images/tour-hushih-3.jpg",
                 alt: "胡適故居客廳黑白相片彩色修復",
                 caption: "胡適院長在中央研究院故居客廳與訪客言談（照片經數位上色）",
                 enlarge: true
               },
               {
                 src: "assets/images/tour-hushih-2.jpg",
+                alt: "胡適紀念館陳列室外景",
+                caption: "胡適紀念館陳列室：介紹其生平、思想與藏書",
+                enlarge: true
+              },
+              {
+                src: "assets/images/tour-hushih-3.jpg",
                 alt: "胡適紀念館故居外景",
                 caption: "胡適院長故居外觀：保留其返台後的起居生活空間與庭園",
                 enlarge: true
@@ -958,7 +963,12 @@ window.CONFERENCE_SITE_DATA = {
               },
               {
                 title: "Exhibition Highlights",
-                people: ["Coming soon"]
+                people: [
+                  "【Joint Exhibition Special Tour】Focusing on Power Reconstruction and Human Mobility: Special highlight tour for this joint exhibition, leading participants to decode the power shifts and historical context hidden behind the historical materials.",
+                  "【Into the Core of Historical Materials】Walking into the Archive Repository: Specially opening the third-floor repository and reading room of the Archives, allowing guests to experience the professionalism, warmth, and rigor of archive preservation work first-hand.",
+                  "【Research Tool Analysis】Introduction to Archives and Library Digital Resources: Director Sheng-Hsiung Su and Subject Librarian Yu-ting Chang will explain archive applications, library literature, and digital databases indispensable for modern history research, helping researchers master diverse tools.",
+                  "【Professional Exchange】In-depth Q&A Discussion: A general exchange session is arranged at the end of the tour, where researchers and participants can have face-to-face exchanges on the practical experience of historical material preservation and academic application."
+                ]
               },
               {
                 title: "Exhibition Contact",
@@ -1397,19 +1407,19 @@ window.CONFERENCE_SITE_DATA = {
             title: "Exhibition & Residence View",
             images: [
               {
-                src: "assets/images/tour-hushih-3.jpg",
+                src: "assets/images/tour-hushih-1.jpg",
                 alt: "Hu Shih residence living room black and white photo colorized",
                 caption: "President Hu Shih talking with visitors in the living room of his residence at Academia Sinica (digitally colorized)",
                 enlarge: true
               },
               {
-                src: "assets/images/tour-hushih-1.jpg",
+                src: "assets/images/tour-hushih-2.jpg",
                 alt: "Hu Shih Memorial Hall Exhibition Room",
                 caption: "Exhibition Room: introducing his life, thoughts, and books",
                 enlarge: true
               },
               {
-                src: "assets/images/tour-hushih-2.jpg",
+                src: "assets/images/tour-hushih-3.jpg",
                 alt: "Hu Shih Former Residence Exterior",
                 caption: "Hu Shih's Former Residence: preserving his living space and gardens after returning to Taiwan",
                 enlarge: true
