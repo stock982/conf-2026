@@ -425,7 +425,8 @@
       .map((pageId) => `<a class="${pageId === page ? "active" : ""}" href="${linkTo(pageId)}">${escapeHTML(t(pageId).nav)}</a>`)
       .join("")}</div>
       <div class="lang-switch">${Object.entries(data.languages)
-        .map(([code, label]) => `<a class="${code === lang ? "active" : ""}" href="${linkTo(page, code)}">${escapeHTML(label)}</a>`)
+        .filter(([code]) => code !== lang)
+        .map(([code, label]) => `<a href="${linkTo(page, code)}">${escapeHTML(label)}</a>`)
         .join("")}</div>`;
 
     footerLinks.innerHTML = data.externalLinks

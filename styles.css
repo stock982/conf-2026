@@ -204,10 +204,14 @@ img {
     0 0 18px rgb(255 243 184 / 20%);
 }
 
-html[lang="zh-Hant"] .hero h1,
-html[lang="zh-Hant"] .page-hero h1 {
+html[lang="zh-Hant"] .hero h1 {
   max-width: 100%;
   white-space: nowrap;
+}
+
+html[lang="zh-Hant"] .page-hero h1 {
+  max-width: 100%;
+  white-space: normal;
 }
 
 html[lang="en"] .hero h1,
@@ -406,6 +410,7 @@ html[lang="zh-Hant"] .hero-summary {
 
 .page-hero h1 {
   font-size: clamp(2.2rem, 5vw, 4.5rem);
+  line-height: 1.25;
 }
 
 .page-content {
