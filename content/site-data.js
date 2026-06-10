@@ -958,7 +958,7 @@ window.CONFERENCE_SITE_DATA = {
           {
             label: "01",
             title: "Across the Taiwan Strait: Historical Materials in the Archives, Library, and Hu Shih Memorial Hall",
-            text: "Coming soon",
+            text: "This is not only a sightseeing activity, but a physical exploration into the core of modern history research. We will lead participating scholars and guests to start from the macroscopic vision of the joint exhibition, go deep into the core repository of the archives, and get close to the important archives, books, and digital resources that support contemporary research. We cordially invite you to walk into the breathing of historical materials with us.",
             meta: "Date: August 4 (Tuesday) - 6 (Thursday), 2026 | Venue: Left-side corridor, 1F, IMH Archives Building",
             groups: [
               {
