@@ -674,8 +674,8 @@ window.CONFERENCE_SITE_DATA = {
         title: "胡適紀念館專場導覽",
         summary: "探索新文化運動推手胡適故居，了解其學術獨立與自由主義理念",
         body: [
-          "胡適（1891-1962）是新文化運動的重要推手，他所領導的文學革命改變了現在漢語使用者的溝通方式。對日抗戰期間，胡適出任駐美大使，促成中美合作抗日。他雖然與執政黨關係密切，卻始終信仰自由與理性，堅持獨立與人權。",
-          "1958 年，胡適返臺就任中央研究院院長，致力於學術的發展與獨立，在風雨飄搖的局勢中為國家拔擢人才，成為臺灣人文與科技發展的重要基礎。胡適過世後，院方將故居改建為紀念館，並增建陳列室，用以介紹胡適的生平與貢獻，同時保存、陳列胡適的藏書、生活場域及其他遺物。",
+          "胡適（1891-1962）是新文化運動的重要推手，他所領導的文學革命改變了現在漢語使用者的溝通方式。對日抗戰期間，胡適出任駐美大使，促成中美合作抗日。他雖然與執政黨關係密切，卻始終信仰自由與理性，堅持獨立與人權。1958 年，胡適返臺就任中央研究院院長，致力於學術的發展與獨立，在風雨飄搖的局勢中為國家拔擢人才，成為臺灣人文與科技發展的重要基礎。",
+          "胡適過世後，院方將故居改建為紀念館，並增建陳列室，用以介紹胡適的生平與貢獻，同時保存、陳列胡適的藏書、生活場域及其他遺物。",
           "胡適紀念館在會議舉行當週期間，特別為與會者提供導覽服務，請有意願參與的朋友報名。"
         ],
         sections: [
@@ -1382,8 +1382,8 @@ window.CONFERENCE_SITE_DATA = {
         title: "Hu Shih Memorial Hall Tour",
         summary: "Explore the former residence of Hu Shih, the advocate of the New Culture Movement, and learn about his ideals of academic independence and liberalism.",
         body: [
-          "Hu Shih (1891-1962) was a major advocate of the New Culture Movement, and the literary revolution he led transformed how modern Chinese language users communicate. During the War of Resistance, Hu Shih served as the Ambassador to the United States, facilitating Sino-US cooperation against invasion. Although closely connected with the ruling party, he always believed in freedom and reason, insisting on independence and human rights.",
-          "In 1958, Hu Shih returned to Taiwan to serve as the President of Academia Sinica, dedicating himself to the development and independence of academia, recruiting talents for the country in a turbulent situation, and laying an important foundation for Taiwan's humanities and scientific development. After Hu Shih passed away, the Academy converted his residence into a memorial hall and added an exhibition room to introduce his life and contributions, while preserving and displaying his collection of books, living spaces, and other relics.",
+          "Hu Shih (1891-1962) was a major advocate of the New Culture Movement, and the literary revolution he led transformed how modern Chinese language users communicate. During the War of Resistance, Hu Shih served as the Ambassador to the United States, facilitating Sino-US cooperation against invasion. Although closely connected with the ruling party, he always believed in freedom and reason, insisting on independence and human rights.n 1958, Hu Shih returned to Taiwan to serve as the President of Academia Sinica, dedicating himself to the development and independence of academia, recruiting talents for the country in a turbulent situation, and laying an important foundation for Taiwan's humanities and scientific development.",
+          "After Hu Shih passed away, the Academy converted his residence into a memorial hall and added an exhibition room to introduce his life and contributions, while preserving and displaying his collection of books, living spaces, and other relics.",
           "During the conference week, the Hu Shih Memorial Hall is providing special guided tours for participants. Interested friends, please register."
         ],
         sections: [
