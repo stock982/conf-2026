@@ -6,7 +6,7 @@ window.CONFERENCE_SITE_DATA = {
     host: "重構跨越臺海的現代史",
     date: "2026年8月4日（星期二）至8月6日（星期四）",
     location: "中央研究院近代史研究所，臺北",
-    footerText: "二十世紀中國歷史協會與中央研究院近代史研究所聯合主辦。",
+    footerText: "二十世紀中國歷史協會與中央研究院近代史研究所聯合主辦",
     registrationUrl: "https://forms.gle/iHhe8SePij9A99RY8",
     submissionUrl: "#/zh/info",
     heroImage: "assets/images/hero-2026.png"
@@ -72,7 +72,7 @@ window.CONFERENCE_SITE_DATA = {
       info: {
         nav: "重要資訊",
         title: "重要資訊",
-        summary: "投稿、論文繳交、住宿與常見問答。",
+        summary: "投稿、論文繳交、住宿與常見問答",
         imageCarousel: [
           { src: "assets/images/info-program.png", alt: "論文提交與議程安排說明圖" },
           { src: "assets/images/info-accommodation.png", alt: "住宿安排說明圖" },
@@ -83,7 +83,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "submission-program",
             label: "01",
             title: "論文提交與議程安排",
-            summary: "投稿、摘要格式、論文繳交與議程公告。",
+            summary: "投稿、摘要格式、論文繳交與議程公告",
             body: [
               "投稿截止日期為2025年10月31日（星期五）。投稿者請提交中、英文雙語摘要，雙語摘要將刊登於會議網站並收錄於會議手冊；會議發表可使用中文或英文。",
               "專題小組與圓桌論壇提案將優先審查。單篇論文提案請提供論文標題、摘要、作者姓名、所屬單位與聯絡資訊；大會將協助彙整並安排適合場次。",
@@ -101,7 +101,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "accommodation-visa",
             label: "02",
             title: "住宿與簽證",
-            summary: "住宿申請、延長住宿與入臺證申請資訊。",
+            summary: "住宿申請、延長住宿與入臺證申請資訊",
             body: [
               "有關本次會議之議程、住宿安排及入臺證申請等事項，主辦單位已於3月13日及4月2日以電子郵件通知所有與會學者，並將另行發出第3次電子郵件通知。如尚未收到通知，敬請各場次成員協助互相轉知。",
               "各項申請截止日期為4月19日。考量住宿房間數量有限及整體安排需求，4月20日（含）之後將無法保證提供住宿，尚未完成申請者須自行安排住宿。",
@@ -139,7 +139,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "membership-fees",
             label: "03",
             title: "會員費用",
-            summary: "HSTCC 會員資格、註冊費與繳費注意事項。",
+            summary: "HSTCC 會員資格、註冊費與繳費注意事項",
             body: [
               "會議發表人須為 HSTCC 有效會員並已繳交會費。年度會費為美金67元，研究生可免繳；會費包含會議註冊費及《二十世紀中國》電子版期刊之閱覽權限。",
               "若您已是 HSTCC 會員，請確認會員資格在2026年8月4日（星期二）至8月6日（星期四）會議期間仍然有效；若屆時資格已過期，請務必完成續會。",
@@ -155,7 +155,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "faq",
             label: "04",
             title: "常見問答",
-            summary: "與提交、住宿、簽證及聯絡相關的快速說明。",
+            summary: "與提交、住宿、簽證及聯絡相關的快速說明",
             body: [
               "以下整理與會者最常詢問的事項；若仍有個別情況需要確認，請依問題類型聯繫相關窗口。"
             ],
@@ -233,7 +233,7 @@ window.CONFERENCE_SITE_DATA = {
       program: {
         nav: "議程及與會學者",
         title: "議程及與會學者",
-        summary: "大會議程、場次資訊及與會學者名單。",
+        summary: "大會議程、場次資訊及與會學者名單",
         body: [],
         actions: [
           { label: "大會議程總表", url: "https://docs.google.com/document/d/1s02wwYuVWAL9t0IkdgT-Kc64XIdPO3jf/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "primary" },
@@ -373,7 +373,7 @@ window.CONFERENCE_SITE_DATA = {
       }, venue: {
         nav: "會議地點",
         title: "會議地點",
-        summary: "四個會場分設於中央研究院近代史研究所檔案館與人文社會科學研究中心。",
+        summary: "四個會場分設於中央研究院近代史研究所檔案館與人文社會科學研究中心",
         sections: [
           {
             title: "近史所檔案館",
@@ -427,7 +427,7 @@ window.CONFERENCE_SITE_DATA = {
       travel: {
         nav: "交通資訊",
         title: "交通資訊",
-        summary: "前往中央研究院南港院區的主要交通方式。",
+        summary: "前往中央研究院南港院區的主要交通方式",
         accordion: true,
         instituteInfo: {
           name: "中央研究院近代史研究所",
@@ -494,9 +494,9 @@ window.CONFERENCE_SITE_DATA = {
             title: "3. 公車到中研院",
             layout: "guide",
             items: [
-              "從捷運南港展覽館站轉乘時，可搭乘：小5、小12、205、276、306、620、645、679號公車",
+              "從捷運南港展覽館站轉乘時，可搭乘：小5、小12、205、276、306、620、645、679號公車。",
               "從南港車站轉乘時，可搭270、藍25。",
-              "確認下車站為「中研院」"
+              "確認下車站為「中研院」。"
             ]
           },
           {
@@ -506,7 +506,7 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "到中研院學術活動中心",
                 items: [
-                  "搭乘公車到「中研院站」",
+                  "搭乘公車到「中研院站」。",
                   "由中央研究院舊大門進入院區。",
                   "沿著「數理大道」直行。",
                   "走到底後左轉，往體育館方向前進。",
@@ -591,7 +591,7 @@ window.CONFERENCE_SITE_DATA = {
       contact: {
         nav: "聯繫方式",
         title: "聯繫方式",
-        summary: "會議聯絡窗口。",
+        summary: "會議聯絡窗口",
         body: [
           "會議統籌：林秀娟小姐（schuan@as.edu.tw）",
           "住宿及入臺證申請：許惠文小姐（wen357@as.edu.tw）",
@@ -601,7 +601,7 @@ window.CONFERENCE_SITE_DATA = {
       joint_tour: {
         nav: "三館聯展限定導覽",
         title: "【研討會限定】史料現場：三館聯展與近代史數位典藏巡禮",
-        summary: "一場穿越時空的學術對話，僅於 8 月 3 日午後限定開啟。",
+        summary: "一場穿越時空的學術對話，僅於 8 月 3 日午後限定開啟",
         body: [
           "本次學術研討會期間，我們特別策劃「史料現場」限定導覽行程。這不僅是一場參觀活動，更是一場深入近代史研究核心的實地探索。",
           "我們將帶領與會學者與貴賓，從宏觀的聯展視野出發，深入檔案館核心庫房，並近距離認識支撐當代研究的重要檔案、圖書與數位資源。誠摯邀請各位與會先進，與我們一同走入史料的呼吸之中。"
@@ -672,7 +672,7 @@ window.CONFERENCE_SITE_DATA = {
       hushih_tour: {
         nav: "胡適紀念館專場導覽",
         title: "胡適紀念館專場導覽",
-        summary: "探索新文化運動推手胡適故居，了解其學術獨立與自由主義理念。",
+        summary: "探索新文化運動推手胡適故居，了解其學術獨立與自由主義理念",
         body: [
           "胡適（1891-1962）是新文化運動的重要推手，他所領導的文學革命改變了現在漢語使用者的溝通方式。對日抗戰期間，胡適出任駐美大使，促成中美合作抗日。他雖然與執政黨關係密切，卻始終信仰自由與理性，堅持獨立與人權。",
           "1958 年，胡適返臺就任中央研究院院長，致力於學術的發展與獨立，在風雨飄搖的局勢中為國家拔擢人才，成為臺灣人文與科技發展的重要基礎。胡適過世後，院方將故居改建為紀念館，並增建陳列室，用以介紹胡適的生平與貢獻，同時保存、陳列胡適的藏書、生活場域及其他遺物。",
