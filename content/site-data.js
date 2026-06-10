@@ -250,6 +250,7 @@ window.CONFERENCE_SITE_DATA = {
           {
             label: "01",
             title: "史料現場 X 近史所三館聯合特展：近代東亞的權力重構與人群移動",
+            btnTitle: "史料現場 X 近史所三館聯合特展",
             text: "這不僅是一場參觀活動，更是一場深入近代史研究核心的實地探索。我們將帶領與會學者與貴賓，從宏觀的聯展視野出發，深入檔案館核心庫房，並近距離認識支撐當代研究的重要檔案、圖書與數位資源。誠摯邀請各位與會先進，與我們一同走入史料的呼吸之中。",
             meta: "時間：2026年8月3日（一）至12月30日（三）。週一至週五 09：00~17:00，國定例假日休館。｜地點：近史所檔案館1樓左側廊道",
             groups: [
@@ -275,7 +276,7 @@ window.CONFERENCE_SITE_DATA = {
                 people: ["近史所檔案館館員林小姐：quen@as.edu.tw"]
               }
             ],
-            sections: [
+            /* sections: [
               {
                 title: "聯展海報",
                 layout: "poster",
@@ -289,7 +290,7 @@ window.CONFERENCE_SITE_DATA = {
                   }
                 ]
               }
-            ]
+            ] */
           },
           {
             type: "simple",
@@ -427,7 +428,14 @@ window.CONFERENCE_SITE_DATA = {
         nav: "交通資訊",
         title: "交通資訊",
         summary: "前往中央研究院南港院區的主要交通方式。",
-        sectionAnchors: true,
+        accordion: true,
+        instituteInfo: {
+          name: "中央研究院近代史研究所",
+          address: "115201 台北市南港區研究院路二段128號",
+          addressLabel: "地址",
+          phone: "+886-2-2782-4166",
+          phoneLabel: "電話"
+        },
         sections: [
           {
             title: "1. 從機場到中研院",
@@ -975,7 +983,7 @@ window.CONFERENCE_SITE_DATA = {
                 people: ["Ms. Lin, IMH Archives: quen@as.edu.tw"]
               }
             ],
-            sections: [
+            /* sections: [
               {
                 title: "Exhibition Poster",
                 layout: "poster",
@@ -989,7 +997,7 @@ window.CONFERENCE_SITE_DATA = {
                   }
                 ]
               }
-            ]
+            ] */
           },
           {
             type: "simple",
@@ -1124,10 +1132,17 @@ window.CONFERENCE_SITE_DATA = {
         ]
       },
       travel: {
-        nav: "Travel",
-        title: "Travel Information",
-        summary: "Main transportation options to Academia Sinica's Nangang campus.",
-        sectionAnchors: true,
+        nav: "Directions",
+        title: "Getting Here...",
+        summary: "Main transportation options to Academia Sinica's Nangang Campus.",
+        accordion: true,
+        instituteInfo: {
+          name: "Institute of Modern History, Academia Sinica",
+          address: "128 Academia Road, Section 2, Nangang, Taipei 115201, Taiwan",
+          addressLabel: "Address",
+          phone: "+886-2-2782-4166",
+          phoneLabel: "Phone"
+        },
         sections: [
           {
             title: "1. From the Airport to Academia Sinica",

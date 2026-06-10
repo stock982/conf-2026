@@ -93,7 +93,7 @@
   function renderEventBlocks(blocks, title) {
     if (!blocks || !blocks.length) return "";
     const nav = `<nav class="section-anchor-nav" aria-label="${escapeHTML(title)} featured sections">${blocks
-      .map((item, index) => `<button type="button" data-section-target="showcase-${index + 1}">${escapeHTML(item.title)}</button>`)
+      .map((item, index) => `<button type="button" data-section-target="showcase-${index + 1}">${escapeHTML(item.btnTitle || item.title)}</button>`)
       .join("")}</nav>`;
     const body = `<div class="event-blocks">${blocks
       .map((item, index) => {
@@ -197,12 +197,43 @@
           )
           .join("")}</div>`
       : "";
+    const isAccordion = content.accordion;
+    let instituteCard = "";
+    if (content.instituteInfo) {
+      const info = content.instituteInfo;
+      const logoHTML = info.logo ? `<img class="institute-logo" src="${escapeHTML(info.logo)}" alt="${escapeHTML(info.name)}" />` : "";
+      const addressHTML = info.address ? `<div class="meta-item">
+        <span class="meta-label">${escapeHTML(info.addressLabel)}</span>
+        <span class="meta-value">${escapeHTML(info.address)}</span>
+      </div>` : "";
+      const phoneHTML = info.phone ? `<div class="meta-item">
+        <span class="meta-label">${escapeHTML(info.phoneLabel)}</span>
+        <span class="meta-value"><a href="tel:${escapeHTML(info.phone.replace(/[^0-9+]/g, ""))}">${escapeHTML(info.phone)}</a></span>
+      </div>` : "";
+      const websiteHTML = info.website ? `<div class="meta-item">
+        <span class="meta-label">${escapeHTML(info.websiteLabel)}</span>
+        <span class="meta-value"><a href="${escapeHTML(info.website)}" target="_blank" rel="noopener noreferrer">${escapeHTML(info.website)}</a></span>
+      </div>` : "";
+
+      instituteCard = `<div class="institute-card ${logoHTML ? "" : "no-logo"}">
+        ${logoHTML}
+        <div class="institute-details">
+          <h2 class="institute-name">${escapeHTML(info.name)}</h2>
+          <div class="institute-meta">
+            ${addressHTML}
+            ${phoneHTML}
+            ${websiteHTML}
+          </div>
+        </div>
+      </div>`;
+    }
+
     const sections = content.sections
-      ? `${content.sectionAnchors
+      ? `${!isAccordion && content.sectionAnchors
           ? `<nav class="section-anchor-nav" aria-label="${escapeHTML(content.title)} sections">${content.sections
               .map((section, index) => `<button type="button" data-section-target="section-${index + 1}">${escapeHTML(section.title.replace(/^\d+\.\s*/, ""))}</button>`)
               .join("")}</nav>`
-          : ""}<div class="info-sections">${content.sections
+          : ""}${instituteCard}<div class="${isAccordion ? "accordion-sections" : "info-sections"}">${content.sections
           .map(
             (section, index) => {
               const isGuide = section.layout === "guide";
@@ -235,6 +266,23 @@
                     )
                     .join("")}</div>`
                 : "";
+              
+              if (isAccordion) {
+                return `<details id="section-${index + 1}" class="accordion-item ${[isGuide ? "guide-section" : "", section.layout === "poster" ? "poster-section" : ""].filter(Boolean).join(" ")}">
+                  <summary class="accordion-summary">
+                    <h2>${escapeHTML(section.title)}</h2>
+                    <span class="accordion-icon"></span>
+                  </summary>
+                  <div class="accordion-content">
+                    ${section.text ? `<p>${escapeHTML(section.text)}</p>` : ""}
+                    ${routes}
+                    ${list}
+                    ${renderActions(section.actions)}
+                    ${sectionImage}
+                  </div>
+                </details>`;
+              }
+
               return `<section id="section-${index + 1}" class="${[isGuide ? "guide-section" : "", section.layout === "poster" ? "poster-section" : ""].filter(Boolean).join(" ")}">
               <h2>${escapeHTML(section.title)}</h2>
               ${section.text ? `<p>${escapeHTML(section.text)}</p>` : ""}
@@ -536,7 +584,13 @@
     if (!(event.target instanceof Element)) return;
     const target = event.target.closest("[data-section-target]");
     if (!target) return;
-    document.getElementById(target.dataset.sectionTarget)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const element = document.getElementById(target.dataset.sectionTarget);
+    if (element) {
+      if (element.tagName === "DETAILS") {
+        element.open = true;
+      }
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   });
 
   window.addEventListener("hashchange", renderPage);
