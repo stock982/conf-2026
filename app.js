@@ -394,7 +394,15 @@
               ${
                 block.questions
                   ? `<div class="faq-list">${block.questions
-                      .map((item) => `<article><h3>${escapeHTML(item.q)}</h3><p>${escapeHTML(item.a)}</p></article>`)
+                      .map((item) => `<details class="faq-item">
+                        <summary class="faq-question">
+                          <h3>${escapeHTML(item.q)}</h3>
+                          <span class="faq-icon"></span>
+                        </summary>
+                        <div class="faq-answer">
+                          <p>${escapeHTML(item.a)}</p>
+                        </div>
+                      </details>`)
                       .join("")}</div>`
                   : ""
               }

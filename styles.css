@@ -1080,20 +1080,98 @@ html[lang="zh-Hant"] .hero-summary {
   gap: 0.8rem;
 }
 
-.faq-list article {
-  padding: 1rem;
+.faq-item {
   border: 1px solid var(--line);
   background: rgb(255 255 255 / 48%);
+  transition: border-color 0.25s, background-color 0.25s;
 }
 
-.faq-list h3 {
-  margin: 0 0 0.35rem;
+.faq-item:hover {
+  background: var(--paper);
+}
+
+.faq-item[open] {
+  border-color: var(--brand);
+  background: var(--paper);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question h3 {
+  margin: 0;
   color: var(--brand-dark);
   font-size: 1.05rem;
+  line-height: 1.4;
+  padding-right: 1.25rem;
+  transition: color 0.2s;
 }
 
-.faq-list p {
+.faq-question:hover h3 {
+  color: var(--brand);
+}
+
+.faq-icon {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+}
+
+.faq-icon::before,
+.faq-icon::after {
+  content: "";
+  position: absolute;
+  background-color: var(--brand);
+  transition: transform 0.25s ease-out, opacity 0.25s ease-out;
+}
+
+/* Horizontal line */
+.faq-icon::before {
+  top: 7px;
+  left: 2px;
+  width: 12px;
+  height: 2px;
+}
+
+/* Vertical line */
+.faq-icon::after {
+  top: 2px;
+  left: 7px;
+  width: 2px;
+  height: 12px;
+}
+
+.faq-item[open] .faq-icon::after {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.faq-item[open] .faq-icon::before {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  padding: 0 1rem 1rem;
+  border-top: 1px dashed var(--line);
+  padding-top: 0.85rem;
+  animation: slideDown 0.25s ease-out;
+}
+
+.faq-answer p {
   margin: 0;
+  color: var(--muted);
 }
 
 .people-groups h2,

@@ -519,10 +519,10 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "到洛碁大飯店 松山館",
                 items: [
-                  "搭乘捷運板南線(藍線)到後山埤站",
-                  "從3號出口出站",
-                  "出站後沿玉成街往前方步行1分鐘",
-                  "抵達目的地「洛碁大飯店 松山館」(左側)"
+                  "搭乘捷運板南線(藍線)到後山埤站。",
+                  "從3號出口出站。",
+                  "出站後沿玉成街往前方步行1分鐘。",
+                  "抵達目的地「洛碁大飯店 松山館」(左側)。"
                 ],
                 actions: [
                   { label: "洛碁大飯店 松山館GOOGLE MAP", url: "https://maps.app.goo.gl/wdf959uM6LBbga6GA", style: "primary" }
@@ -958,7 +958,7 @@ window.CONFERENCE_SITE_DATA = {
           {
             label: "01",
             title: "Across the Taiwan Strait: Historical Materials in the Archives, Library, and Hu Shih Memorial Hall",
-            text: "Coming soon",
+            text: "This is not only a sightseeing activity, but a physical exploration into the core of modern history research. We will lead participating scholars and guests to start from the macroscopic vision of the joint exhibition, go deep into the core repository of the archives, and get close to the important archives, books, and digital resources that support contemporary research. We cordially invite you to walk into the breathing of historical materials with us.",
             meta: "Date: August 4 (Tuesday) - 6 (Thursday), 2026 | Venue: Left-side corridor, 1F, IMH Archives Building",
             groups: [
               {
