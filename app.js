@@ -466,6 +466,7 @@
 
   function renderPage() {
     setRoute();
+    window.scrollTo(0, 0);
     const content = t(page);
     document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
     document.title = content.nav === "首頁" || content.nav === "Home" 
