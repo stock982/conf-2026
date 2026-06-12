@@ -265,10 +265,10 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "聯展亮點",
                 people: [
-                  "【三館聯展特導】聚焦權力重構與人群移動：特別針對本次三館聯合策展內容進行精華導覽，帶領與會者解讀史料背後隱含的權力流轉與歷史脈絡。",
-                  "【直擊史料核心】走進檔案館典藏空間：特別開放檔案館三樓庫房與閱覽空間，讓與會嘉賓近距離感受檔案保存工作的專業、溫度與嚴謹。",
-                  "【研究利器解析】檔案與圖書數位資源簡介：由檔案館主任蘇聖雄與學科館員張瑜庭解說近代史研究不可或缺的檔案應用、圖書文獻與數位資料庫資源，協助研究者掌握多元研究工具。",
-                  "【專業交流對話】深度座談 Q&A：行程最後安排綜合交流時段，由研究人員及與會者進行面對面交流與結語分享，交流史料典藏與學術應用的實務經驗。"
+                  "【揭開塵封的「密件」】從國共諜戰到冷戰外交：首度公開法務部調查局（薈蘆特藏）珍稀史料，從中共入黨誓詞到宣傳漫畫，直擊內戰時期的情報攻防。同時展示冷戰下臺灣如何運用美援，從農林經濟轉身進入半導體時代的關鍵瞬間。",
+                  "【閱讀生命的「刻度」】名醫處方與將領日記：從中醫宗師馬光亞、西醫名家韓石泉的診療紀錄，看見近代醫療的交錯；透過黎玉璽、孫立人及王叔銘等將領的日記文書，還原遷臺初期波譎雲詭的軍政重塑與反攻夢想。",
+                  "【跨時空的「父子對話」】胡適檔案中的臺灣記憶：不僅是胡適，更看見其父胡傳在晚清臺灣留下的足跡。從清領末期的營務巡閱到胡適晚年定居南港的「蝸居」生活，展現這對傳奇父子與臺灣跨越半世紀的深厚情緣。",
+                  "【國家統治的「耳目」】從內部情報到社會監控：郭廷以圖書館精選全臺獨家「新華社內部參考」機密報告，揭開官方宣傳背後最真實的基層動態。從清代巴縣訴訟檔案到民國時期的海外僑訊，看見國家力量如何透過資訊網絡，深入社會的每一個角落，形塑你我熟知的歷史記憶。"
                 ]
               },
               {
@@ -612,7 +612,7 @@ window.CONFERENCE_SITE_DATA = {
             items: [
               "【三館聯展特導】聚焦權力重構與人群移動：特別針對本次三館聯合策展內容進行精華導覽，帶領與會者解讀史料背後隱含的權力流轉與歷史脈絡。",
               "【直擊史料核心】走進檔案館典藏空間：特別開放檔案館三樓庫房與閱覽空間，讓與會嘉賓近距離感受檔案保存工作的專業、溫度與嚴謹。",
-              "【研究利器解析】檔案與圖書數位資源簡介：由檔案館主任蘇聖雄與學科館員張瑜庭解說近代史研究不可或缺的檔案應用、圖書文獻與數位資料庫資源，協助研究者掌握多元研究工具。",
+              "【研究利器解析】檔案與圖書數位資源簡介：由檔案館主任蘇聖雄與圖書館學科館員張瑜庭解說近代史研究不可或缺的檔案應用、圖書文獻與數位資料庫資源，協助研究者掌握多元研究工具。",
               "【專業交流對話】深度座談 Q&A：行程最後安排綜合交流時段，由研究人員及與會者進行面對面交流與結語分享，交流史料典藏與學術應用的實務經驗。"
             ]
           },
@@ -629,7 +629,7 @@ window.CONFERENCE_SITE_DATA = {
           },
           {
             title: "報名資訊",
-            text: "為維護導覽品質及配合場域限制，本活動採「線上預約制」。系統將依報名順序安排具體導覽時段，並於報名成功後另行通知。",
+            text: "為維護導覽品質及配合場域限制，本活動採「線上預約制」，每場次限量30個席位。主辦單位將依報名順序進行排位，若超出名額將自動列為候補，敬請提早預約。",
             actions: [
               {
                 label: "線上報名",
@@ -639,14 +639,14 @@ window.CONFERENCE_SITE_DATA = {
             ],
             items: [
               "請登入 Google 帳號報名；無帳號者，請致信聯絡人辦理。",
-              "報名期限：額滿為止"
+              "報名期限：即日起至 2026年7月27日（星期一）17:00 止。（額滿將提前關閉表單）"
             ]
           },
           {
             title: "聯絡資訊 & 相關單位",
             text: "主辦單位：近代史研究所檔案館、郭廷以圖書館、胡適紀念館",
             items: [
-              "聯絡人：近史所檔案館 林佩璇",
+              "聯絡人：近史所檔案館館員 林小姐",
               "電子信箱：quen@as.edu.tw"
             ]
           },
@@ -972,10 +972,10 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "Exhibition Highlights",
                 people: [
-                  "【Joint Exhibition Special Tour】Focusing on Power Reconstruction and Human Mobility: Special highlight tour for this joint exhibition, leading participants to decode the power shifts and historical context hidden behind the historical materials.",
-                  "【Into the Core of Historical Materials】Walking into the Archive Repository: Specially opening the third-floor repository and reading room of the Archives, allowing guests to experience the professionalism, warmth, and rigor of archive preservation work first-hand.",
-                  "【Research Tool Analysis】Introduction to Archives and Library Digital Resources: Director Sheng-Hsiung Su and Subject Librarian Yu-ting Chang will explain archive applications, library literature, and digital databases indispensable for modern history research, helping researchers master diverse tools.",
-                  "【Professional Exchange】In-depth Q&A Discussion: A general exchange session is arranged at the end of the tour, where researchers and participants can have face-to-face exchanges on the practical experience of historical material preservation and academic application."
+                  "【Unveiling Sealed \"Classified Documents\"】From Nationalists-Communists Espionage to Cold War Diplomacy: Showcasing for the first time rare historical archives from the Investigation Bureau of the Ministry of Justice (Huilu Special Collection). Ranging from Chinese Communist Party induction oaths to propaganda cartoons, these materials offer a direct view of intelligence operations during the civil war. Concurrently, it displays the critical moments of Taiwan’s economic transition under the Cold War, utilizing U.S. aid to pivot from an agricultural-forestry economy to the semiconductor era.",
+                  "【Reading the \"Scales\" of Life】Prescriptions of Renowned Doctors and Diaries of Military Generals: Observing the intersection of modern medical systems through the clinical records of Chinese medicine master Ma Kuang-ya and Western medicine pioneer Han Shih-chuan. Concurrently, diaries and documents of generals such as Li Yu-hsi, Sun Li-jen, and Wang Shu-ming reconstruct the turbulent military-political restructuring and the dreams of reclaiming the mainland during the early post-relocation period to Taiwan.",
+                  "【Cross-Temporal \"Dialogue Between Father and Son\"】Taiwanese Memory in the Hu Shih Archives: Exploring not only Hu Shih's papers, but also the footprints left by his father, Hu Chuan, in late Qing Taiwan. From the inspection of military affairs at the end of the Qing rule to Hu Shih's modest residence in Nangang during his twilight years, this exhibit demonstrates the profound connection spanning over half a century between this legendary father and son and the island of Taiwan.",
+                  "【The \"Eyes and Ears\" of State Governance】From Internal Intelligence to Social Surveillance: The Kuo Ting-yee Library features Taiwan's exclusive selection of classified \"Xinhua News Agency Internal Reference\" reports, revealing the authentic grassroots realities behind official propaganda. Ranging from Baxian litigation archives of the Qing dynasty to overseas Chinese newsletters of the Republican era, the exhibit illustrates how state power penetrated every corner of society through information networks, shaping the historical memories we know today."
                 ]
               },
               {
@@ -1320,7 +1320,7 @@ window.CONFERENCE_SITE_DATA = {
             items: [
               "【Joint Exhibition Special Tour】Focusing on Power Reconstruction and Human Mobility: Special highlight tour for this joint exhibition, leading participants to decode the power shifts and historical context hidden behind the historical materials.",
               "【Into the Core of Historical Materials】Walking into the Archive Repository: Specially opening the third-floor repository and reading room of the Archives, allowing guests to experience the professionalism, warmth, and rigor of archive preservation work first-hand.",
-              "【Research Tool Analysis】Introduction to Archives and Library Digital Resources: Director Sheng-Hsiung Su and Subject Librarian Yu-ting Chang will explain archive applications, library literature, and digital databases indispensable for modern history research, helping researchers master diverse tools.",
+              "【Research Tool Analysis】Introduction to Archives and Library Digital Resources: Director Sheng-Hsiung Su and Subject Librarian of the Library Yu-ting Chang will explain archive applications, library literature, and digital databases indispensable for modern history research, helping researchers master diverse tools.",
               "【Professional Exchange】In-depth Q&A Discussion: A general exchange session is arranged at the end of the tour, where researchers and participants can have face-to-face exchanges on the practical experience of historical material preservation and academic application."
             ]
           },
@@ -1337,7 +1337,7 @@ window.CONFERENCE_SITE_DATA = {
           },
           {
             title: "Registration",
-            text: "To maintain the quality of the tour and cooperate with venue limits, this activity adopts 'online reservation'. The system will arrange specific tour times based on the registration order, and notifications will be sent after successful registration.",
+            text: "To ensure the quality of the tour and accommodate venue capacity limits, this activity adopts an \"online reservation\" system, with a limit of 30 seats per session. The organizer will allocate seats based on the order of registration; excess registrations will be automatically placed on a waiting list. Early reservation is highly recommended.",
             actions: [
               {
                 label: "Online Registration (Google Form)",
@@ -1347,14 +1347,14 @@ window.CONFERENCE_SITE_DATA = {
             ],
             items: [
               "Please sign in with a Google account to register; if you do not have one, please email the contact person.",
-              "Deadline: Until full"
+              "Registration Period: From now until 17:00 on Monday, July 27, 2026 (The registration form will close early once the capacity is reached)."
             ]
           },
           {
             title: "Contact & Organizers",
             text: "Organizers: Archives of the Institute of Modern History, Kuo Ting-yee Library, Hu Shih Memorial Hall",
             items: [
-              "Contact: Ms. Pei-hsuan Lin, IMH Archives",
+              "Contact: Ms. Lin, Archivist of the IMH Archives",
               "Email: quen@as.edu.tw"
             ]
           },
