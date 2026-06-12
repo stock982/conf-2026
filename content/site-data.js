@@ -715,20 +715,20 @@ window.CONFERENCE_SITE_DATA = {
             images: [
               {
                 src: "assets/images/tour-hushih-1.jpg",
-                alt: "胡適故居客廳黑白相片彩色修復",
-                caption: "胡適院長在中央研究院故居客廳與訪客言談（照片經數位上色）",
+                alt: "胡適故居餐廳讀書相片彩色修復",
+                caption: "胡適院長在南港中研院故居餐廳讀書（照片經數位上色）",
                 enlarge: true
               },
               {
                 src: "assets/images/tour-hushih-2.jpg",
-                alt: "胡適紀念館陳列室外景",
-                caption: "胡適紀念館陳列室：介紹其生平、思想與藏書",
+                alt: "中研院胡適故居近照",
+                caption: "中研院胡適故居近照",
                 enlarge: true
               },
               {
                 src: "assets/images/tour-hushih-3.jpg",
-                alt: "胡適紀念館故居外景",
-                caption: "胡適院長故居外觀：保留其返台後的起居生活空間與庭園",
+                alt: "1958年的胡適寓所彩色修復",
+                caption: "1958年的胡適寓所（即胡適故居，照片經數位上色）",
                 enlarge: true
               }
             ]
@@ -1382,9 +1382,9 @@ window.CONFERENCE_SITE_DATA = {
         title: "Hu Shih Memorial Hall Tour",
         summary: "Explore the former residence of Hu Shih, the advocate of the New Culture Movement, and learn about his ideals of academic independence and liberalism.",
         body: [
-          "Hu Shih (1891-1962) was a major advocate of the New Culture Movement, and the literary revolution he led transformed how modern Chinese language users communicate. During the War of Resistance, Hu Shih served as the Ambassador to the United States, facilitating Sino-US cooperation against invasion. Although closely connected with the ruling party, he always believed in freedom and reason, insisting on independence and human rights.n 1958, Hu Shih returned to Taiwan to serve as the President of Academia Sinica, dedicating himself to the development and independence of academia, recruiting talents for the country in a turbulent situation, and laying an important foundation for Taiwan's humanities and scientific development.",
-          "After Hu Shih passed away, the Academy converted his residence into a memorial hall and added an exhibition room to introduce his life and contributions, while preserving and displaying his collection of books, living spaces, and other relics.",
-          "During the conference week, the Hu Shih Memorial Hall is providing special guided tours for participants. Interested friends, please register."
+          "Hu Shih (1891-1962) is a major advocate of the New Culture Movement, and the literary revolution he led changed the communication mode of modern Mandarin. During the Second Sino-Japanese War, Hu Shih served as the Ambassador to the United States, facilitating Sino-US cooperation against the Japanese invasion. Although closely connected with the ruling party, he always believed in liberty and reason, insisting on independence and human rights. In 1958, Hu Shih returned to Taiwan to serve as the President of Academia Sinica, dedicating himself to the development and independence of academia, recruiting talents for the country in a turbulent situation, and establishing an important foundation for Taiwan's humanities and scientific development.",
+          "After Hu Shih passed away, the Academia Sinica converted his residence into a memorial hall and added an exhibition room to introduce his life and contributions, while preserving and displaying his books and living space.",
+          "During the “Reframing Modern Histories Across the Taiwan Strait” international conference, Hu Shih Memorial Hall provides special guided tour. Please register in advance."
         ],
         sections: [
           {
@@ -1423,20 +1423,20 @@ window.CONFERENCE_SITE_DATA = {
             images: [
               {
                 src: "assets/images/tour-hushih-1.jpg",
-                alt: "Hu Shih residence living room black and white photo colorized",
-                caption: "President Hu Shih talking with visitors in the living room of his residence at Academia Sinica (digitally colorized)",
+                alt: "Hu Shih reading in the dining room of his residence, photo colorized",
+                caption: "President Hu Shih reading in the dining room of his former residence at Academia Sinica, Nangang (digitally colorized)",
                 enlarge: true
               },
               {
                 src: "assets/images/tour-hushih-2.jpg",
-                alt: "Hu Shih Memorial Hall Exhibition Room",
-                caption: "Exhibition Room: introducing his life, thoughts, and books",
+                alt: "Recent photograph of the Hu Shih Former Residence, Academia Sinica",
+                caption: "Recent photograph of the Hu Shih Former Residence, Academia Sinica",
                 enlarge: true
               },
               {
                 src: "assets/images/tour-hushih-3.jpg",
-                alt: "Hu Shih Former Residence Exterior",
-                caption: "Hu Shih's Former Residence: preserving his living space and gardens after returning to Taiwan",
+                alt: "The Hu Shih Residence in 1958, photo colorized",
+                caption: "The Hu Shih Residence in 1958 (namely the Hu Shih Former Residence, digitally colorized)",
                 enlarge: true
               }
             ]
