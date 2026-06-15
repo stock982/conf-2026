@@ -629,7 +629,7 @@ window.CONFERENCE_SITE_DATA = {
           },
           {
             title: "報名資訊",
-            text: "為維護導覽品質及配合場域限制，本活動採「線上預約制」，每場次限量30個席位。主辦單位將依報名順序進行排位，若超出名額將自動列為候補，敬請提早預約。",
+            text: "為維持高品質導覽體驗，若報名人數超過限額，入選名單將由主辦單位審核決定，敬請提早預約。",
             actions: [
               {
                 label: "線上報名",
@@ -1337,7 +1337,7 @@ window.CONFERENCE_SITE_DATA = {
           },
           {
             title: "Registration",
-            text: "To ensure the quality of the tour and accommodate venue capacity limits, this activity adopts an \"online reservation\" system, with a limit of 30 seats per session. The organizer will allocate seats based on the order of registration; excess registrations will be automatically placed on a waiting list. Early reservation is highly recommended.",
+            text: "To maintain a high-quality guided tour experience, if the number of registrants exceeds the capacity limit, the final admission list will be reviewed and determined by the organizer. Early reservation is highly recommended.",
             actions: [
               {
                 label: "Online Registration (Google Form)",
