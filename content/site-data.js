@@ -874,7 +874,7 @@ window.CONFERENCE_SITE_DATA = {
               { q: "Since graduate students are exempt from dues, how is their attendance confirmed?", a: "For graduate students, receiving the Letter of Acceptance serves as confirmation of registration. No further action is needed." },
               { q: "I am already an HSTCC member, or joined before submission. Do I need to pay again?", a: "Please ensure your membership is valid during the conference dates, August 4 (Tuesday) - 6 (Thursday), 2026. Participation requires an active HSTCC membership. If your membership expires before these dates, you must renew and pay the requisite fees." },
               { q: "I cannot pay via credit card. Are there alternative payment methods?", a: "We suggest trying a different credit card first. If the issue persists, payment by check is accepted. Please refer to the instructions on the HSTCC payment webpage for details." },
-              { q: "How do scholars and students holding PRC passports apply for visas to enter Taiwan?", a: "The Institute of Modern History will assist scholars and students holding PRC passports with the entry permit application. Detailed instructions will be announced in March 2026." },
+              { q: "How do scholars and students holding PRC passports apply for Taiwan entry permits?", a: "The Institute of Modern History will assist scholars and students holding PRC passports with the entry permit application. Detailed instructions will be announced in March 2026." },
               { q: "Will a separate conference invitation letter be issued in addition to the acceptance letter?", a: "The Letter of Acceptance serves as the official invitation. If you require a specific format for funding or administrative purposes, please email us with your personal details and the required format." },
               { q: "In which language should the conference paper be submitted?", a: "The official academic languages are Chinese and English. Papers should be written in either Chinese or English." },
               { q: "Who is eligible for accommodation provided by the conference?", a: "Accommodation is provided for all international scholars and students. For domestic scholars, during the conference, lodging will be provided only for scholars whose institutions are located outside the Greater Taipei Area." },
@@ -917,7 +917,7 @@ window.CONFERENCE_SITE_DATA = {
             text: "We suggest trying a different credit card first. If the issue persists, payment by check is accepted. Please refer to the instructions on the HSTCC payment webpage for details."
           },
           {
-            title: "How do scholars and students holding PRC passports apply for visas to enter Taiwan?",
+            title: "How do scholars and students holding PRC passports apply for Taiwan entry permits?",
             text: "The Institute of Modern History will assist scholars and students holding PRC passports with the entry permit application. Detailed instructions will be announced in March 2026."
           },
           {
@@ -958,7 +958,7 @@ window.CONFERENCE_SITE_DATA = {
           {
             label: "01",
             title: "Across the Taiwan Strait: Historical Materials in the Archives, Library, and Hu Shih Memorial Hall",
-            text: "This is not only a sightseeing activity, but a physical exploration into the core of modern history research. We will lead participating scholars and guests to start from the macroscopic vision of the joint exhibition, go deep into the core repository of the archives, and get close to the important archives, books, and digital resources that support contemporary research. We cordially invite you to walk into the breathing of historical materials with us.",
+            text: "More than a visit, this special guided tour offers conference participants an on-site exploration of the core resources that support modern history research. Beginning with the joint exhibition, participants will enter the archives’ core repository and encounter key archival materials, books, and digital resources that sustain contemporary scholarship.",
             meta: "Date: August 4 (Tuesday) - 6 (Thursday), 2026 | Venue: Left-side corridor, 1F, IMH Archives Building",
             groups: [
               {
@@ -972,10 +972,10 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "Exhibition Highlights",
                 people: [
-                  "【Unveiling Sealed \"Classified Documents\"】From Nationalists-Communists Espionage to Cold War Diplomacy: Showcasing for the first time rare historical archives from the Investigation Bureau of the Ministry of Justice (Huilu Special Collection). Ranging from Chinese Communist Party induction oaths to propaganda cartoons, these materials offer a direct view of intelligence operations during the civil war. Concurrently, it displays the critical moments of Taiwan’s economic transition under the Cold War, utilizing U.S. aid to pivot from an agricultural-forestry economy to the semiconductor era.",
-                  "【Reading the \"Scales\" of Life】Prescriptions of Renowned Doctors and Diaries of Military Generals: Observing the intersection of modern medical systems through the clinical records of Chinese medicine master Ma Kuang-ya and Western medicine pioneer Han Shih-chuan. Concurrently, diaries and documents of generals such as Li Yu-hsi, Sun Li-jen, and Wang Shu-ming reconstruct the turbulent military-political restructuring and the dreams of reclaiming the mainland during the early post-relocation period to Taiwan.",
-                  "【Cross-Temporal \"Dialogue Between Father and Son\"】Taiwanese Memory in the Hu Shih Archives: Exploring not only Hu Shih's papers, but also the footprints left by his father, Hu Chuan, in late Qing Taiwan. From the inspection of military affairs at the end of the Qing rule to Hu Shih's modest residence in Nangang during his twilight years, this exhibit demonstrates the profound connection spanning over half a century between this legendary father and son and the island of Taiwan.",
-                  "【The \"Eyes and Ears\" of State Governance】From Internal Intelligence to Social Surveillance: The Kuo Ting-yee Library features Taiwan's exclusive selection of classified \"Xinhua News Agency Internal Reference\" reports, revealing the authentic grassroots realities behind official propaganda. Ranging from Baxian litigation archives of the Qing dynasty to overseas Chinese newsletters of the Republican era, the exhibit illustrates how state power penetrated every corner of society through information networks, shaping the historical memories we know today."
+                  "【Unveiling Sealed \"Classified Documents\"】Rare materials from the Ministry of Justice Investigation Bureau’s Huilu Special Collection, shown publicly for the first time, reveal Civil War intelligence operations and Taiwan’s Cold War economic transformation through U.S. aid.",
+                  "【Reading the \"Scales\" of Life】Prescriptions by renowned doctors and diaries of military generals illuminate the intersections of medicine, politics, and everyday life, from modern medical encounters to the military-political upheavals after the Nationalist government’s relocation to Taiwan.",
+                  "【A Cross-Temporal \"Dialogue Between Father and Son\"】The Hu Shih Archives connect Hu Shih’s papers with traces left by his father, Hu Chuan, in late Qing Taiwan, revealing a father-son relationship with Taiwan that spanned more than half a century.",
+                  "【The \"Eyes and Ears\" of State Governance】Classified Xinhua News Agency Internal Reference reports, Qing litigation archives, and overseas Chinese newsletters show how information networks shaped state governance, social surveillance, and historical memory."
                 ]
               },
               {
@@ -1311,8 +1311,8 @@ window.CONFERENCE_SITE_DATA = {
         title: "[Conference Only] Special Collections Tour: Three-Museum Joint Exhibition & Modern History Digital Archives",
         summary: "A cross-time scholarly dialogue, exclusively open on the afternoon of August 3.",
         body: [
-          "During the academic conference, we have specially planned the 'Historical Material Scenes' limited guided tour. This is not only a sightseeing activity, but a physical exploration into the core of modern history research.",
-          "We will lead participating scholars and guests to start from the macroscopic vision of the joint exhibition, go deep into the core repository of the archives, and get close to the important archives, books, and digital resources that support contemporary research. We cordially invite you to walk into the breathing of historical materials with us."
+          "During the conference, we will offer a special guided tour, “Historical Materials in Context,” designed exclusively for conference participants. More than a visit, this tour offers an on-site exploration of the core resources that support modern history research.",
+          "Beginning with the broader vision of the joint exhibition, participants will enter the archives’ core repository and encounter key  archives, books, and digital resources that sustain contemporary scholarship. We warmly invite scholars and guests to step into the living world of historical materials with us."
         ],
         sections: [
           {
@@ -1364,7 +1364,7 @@ window.CONFERENCE_SITE_DATA = {
               {
                 src: "assets/images/tour-joint-1.jpg",
                 alt: "IMH Archives photo",
-                caption: "Archive of Institute of Modern History ",
+                caption: "Archive of the Institute of Modern History ",
                 enlarge: true
               },
               {
@@ -1382,9 +1382,9 @@ window.CONFERENCE_SITE_DATA = {
         title: "Hu Shih Memorial Hall Tour",
         summary: "Explore the former residence of Hu Shih, the advocate of the New Culture Movement, and learn about his ideals of academic independence and liberalism.",
         body: [
-          "Hu Shih (1891-1962) is a major advocate of the New Culture Movement, and the literary revolution he led changed the communication mode of modern Mandarin. During the Second Sino-Japanese War, Hu Shih served as the Ambassador to the United States, facilitating Sino-US cooperation against the Japanese invasion. Although closely connected with the ruling party, he always believed in liberty and reason, insisting on independence and human rights. In 1958, Hu Shih returned to Taiwan to serve as the President of Academia Sinica, dedicating himself to the development and independence of academia, recruiting talents for the country in a turbulent situation, and establishing an important foundation for Taiwan's humanities and scientific development.",
+          "Hu Shih (1891-1962) was a major advocate of the New Culture Movement, and the literary revolution he led changed the communication mode of modern Mandarin. During the Second Sino-Japanese War, Hu Shih served as the Ambassador to the United States, facilitating Sino-US cooperation against the Japanese invasion. Although closely connected with the ruling party, he always believed in liberty and reason, insisting on independence and human rights. In 1958, Hu Shih returned to Taiwan to serve as the President of Academia Sinica, dedicating himself to the development and independence of academia, recruiting talents for the country in a turbulent situation, and establishing an important foundation for Taiwan's humanities and scientific development.",
           "After Hu Shih passed away, the Academia Sinica converted his residence into a memorial hall and added an exhibition room to introduce his life and contributions, while preserving and displaying his books and living space.",
-          "During the “Reframing Modern Histories Across the Taiwan Strait” international conference, Hu Shih Memorial Hall provides special guided tour. Please register in advance."
+          "During the “Reframing Modern Histories Across the Taiwan Strait” international conference, the Hu Shih Memorial Hall offering special guided tours. Please register in advance."
         ],
         sections: [
           {
