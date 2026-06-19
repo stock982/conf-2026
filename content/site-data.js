@@ -958,7 +958,7 @@ window.CONFERENCE_SITE_DATA = {
           {
             label: "01",
             title: "Across the Taiwan Strait: Historical Materials in the Archives, Library, and Hu Shih Memorial Hall",
-            text: "More than a visit, this special guided tour offers conference participants an on-site exploration of the core resources that support modern history research. Beginning with the joint exhibition, participants will enter the archives’ core repository and encounter key archival materials, books, and digital resources that sustain contemporary scholarship.",
+            text: "More than a visit, this special guided tour offers conference participants an on-site exploration of the core resources that support modern history research. Beginning with the joint exhibition, participants will enter the archives' core repository and encounter key archival materials, books, and digital resources that sustain contemporary scholarship.",
             meta: "Date: August 4 (Tuesday) - 6 (Thursday), 2026 | Venue: Left-side corridor, 1F, IMH Archives Building",
             groups: [
               {
@@ -972,9 +972,9 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "Exhibition Highlights",
                 people: [
-                  "【Unveiling Sealed \"Classified Documents\"】Rare materials from the Ministry of Justice Investigation Bureau’s Huilu Special Collection, shown publicly for the first time, reveal Civil War intelligence operations and Taiwan’s Cold War economic transformation through U.S. aid.",
-                  "【Reading the \"Scales\" of Life】Prescriptions by renowned doctors and diaries of military generals illuminate the intersections of medicine, politics, and everyday life, from modern medical encounters to the military-political upheavals after the Nationalist government’s relocation to Taiwan.",
-                  "【A Cross-Temporal \"Dialogue Between Father and Son\"】The Hu Shih Archives connect Hu Shih’s papers with traces left by his father, Hu Chuan, in late Qing Taiwan, revealing a father-son relationship with Taiwan that spanned more than half a century.",
+                  "【Unveiling Sealed \"Classified Documents\"】Rare materials from the Ministry of Justice Investigation Bureau's Huilu Special Collection, shown publicly for the first time, reveal Civil War intelligence operations and Taiwan's Cold War economic transformation through U.S. aid.",
+                  "【Reading the \"Scales\" of Life】Prescriptions by renowned doctors and diaries of military generals illuminate the intersections of medicine, politics, and everyday life, from modern medical encounters to the military-political upheavals after the Nationalist government's relocation to Taiwan.",
+                  "【A Cross-Temporal \"Dialogue Between Father and Son\"】The Hu Shih Archives connect Hu Shih's papers with traces left by his father, Hu Chuan, in late Qing Taiwan, revealing a father-son relationship with Taiwan that spanned more than half a century.",
                   "【The \"Eyes and Ears\" of State Governance】Classified Xinhua News Agency Internal Reference reports, Qing litigation archives, and overseas Chinese newsletters show how information networks shaped state governance, social surveillance, and historical memory."
                 ]
               },
@@ -1312,7 +1312,7 @@ window.CONFERENCE_SITE_DATA = {
         summary: "A cross-time scholarly dialogue, exclusively open on the afternoon of August 3.",
         body: [
           "During the conference, we will offer a special guided tour, “Historical Materials in Context,” designed exclusively for conference participants. More than a visit, this tour offers an on-site exploration of the core resources that support modern history research.",
-          "Beginning with the broader vision of the joint exhibition, participants will enter the archives’ core repository and encounter key  archives, books, and digital resources that sustain contemporary scholarship. We warmly invite scholars and guests to step into the living world of historical materials with us."
+          "Beginning with the broader vision of the joint exhibition, participants will enter the archives' core repository and encounter key  archives, books, and digital resources that sustain contemporary scholarship. We warmly invite scholars and guests to step into the living world of historical materials with us."
         ],
         sections: [
           {
